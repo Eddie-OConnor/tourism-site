@@ -1,0 +1,85 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    background: #F1FAEE;
+    color: #1D3557;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 100px;
+}
+
+.hero{
+    background-image: url("http://res.cloudinary.com/simpleview/image/upload/v1597244795/clients/corningfingerlakes/IMG_20200621_184446_428_e48c14f1-14a6-4957-ae3d-2a6fd1bda029.jpg");
+    background-size: cover;
+    height: 300px;
+    margin-top: 0px;
+    color: white;
+    text-shadow: 0 0 20px black;
+}
+
+.heroHeader{
+    margin: 0 55px 0 55px;
+}
+
+.activity-flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around
+}
+
+.glassMuseum{
+    background-image: url("https://exhibitions.bgc.bard.edu/studioglasshistory/wp-content/uploads/places/the-corning-museum-of-glass/Corning-Alternate-2-2400x1600.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.marketStreet{
+    background-image: url("https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/city-corning-ny-the-heart-of-market-street-mike-savad.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+}
+
+.rockwellMuseum{
+    background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/crm/gafferdistrict/Rockwell-Museum---Aerial---Brian-Maloney-1-sm_92BEF027-5056-A36A-0AE7872B4E13904C-92beedbe5056a36_92bf0459-5056-a36a-0a2f154905df5a6e.jpg");
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    opacity: 1;
+    filter: alpha(opacity=40);
+}
+
+#activity-image:hover{
+    opacity: 0.5;
+    filter: alpha(opacity=100);  
+}
+.guide-bio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: auto;
+    
+}
+
+ol{
+        list-style-type: none;
+}
+
+#header{
+    padding: 15px;
+}
